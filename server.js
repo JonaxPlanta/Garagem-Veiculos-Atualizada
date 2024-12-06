@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 //importação das rotas
-const veiculoRotas = require('./routes/Veiculo');
+const veiculoRotas = require('./src/routes/Veiculo');
 
 // Config do server
 const port = 8080;
