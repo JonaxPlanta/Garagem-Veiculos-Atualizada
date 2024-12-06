@@ -3,9 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Loja de Veiculos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
+
+    <!-- a página deverá conter elementos como cabeçalho, descrição da garagem, endereço, etc, ou seja, simular uma página real. -->
+    <header>
+        <h1 class="title">Garagem Top Motors</h1>
+        <hr>
+        <div class="contDesc">
+            <p class="desc">A Garagem Top Motors é o lugar perfeito para quem busca qualidade, confiança e variedade ao adquirir um     veículo. Com uma seleção diversificada de carros novos e seminovos, nosso objetivo é proporcionar aos clientes as melhores  opções que combinam custo-benefício e desempenho. Oferecemos atendimento personalizado, condições de pagamento flexíveis e   garantia de procedência em todos os veículos. Seja para o primeiro carro, uma atualização de modelo ou um veículo utilitário  para trabalho, a Top Motors tem o que você precisa. Aqui, você realiza o sonho de dirigir com estilo e segurança!!</p>
+        </div>
+    </header>
+
+<main>
+    <hr>
+    <h2 style="color: #fff; justify-self: center; font-size: 40px;">Veículos em Destaque</h2>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-img"><div><img  class="img" src="./assets/img/Corolla.jpg" alt=""></div></div>
+            <div class="card-title">Corolla Altis</div>
+            <div class="card-subtitle"><strong>Fabricante</strong>: Toyota <br>
+                <strong>Ano/Modelo</strong>: 2021 <br>
+                <strong>Combustível</strong>: Flex (Gasolina/Etanol) <br>
+                <strong>Cor</strong>: Branco Pérola <br>
+            </div>
+            <hr class="card-divider">
+            <div class="card-footer">
+                <div class="card-price"><span>R$</span> 125.000,00</div>
+                <button class="card-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z"></path><path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z"></path><path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z"></path><path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img"><div><img class="img" src="./assets/img/Civic.webp" alt=""></div></div>
+            <div class="card-title">Civic Touring</div>
+            <div class="card-subtitle"><strong>Fabricante</strong>: Honda <br>
+                <strong>Ano/Modelo</strong>: 2020 <br>
+                <strong>Combustível</strong>: Gasolina <br>
+                <strong>Cor</strong>: Preto Cristal <br>
+            </div>
+            <hr class="card-divider">
+            <div class="card-footer">
+                <div class="card-price"><span>R$</span> 139.000,00</div>
+                <button class="card-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z"></path><path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z"></path><path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z"></path><path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img"><div><img class="img" src="./assets/img/Compass.webp" alt=""></div></div>
+            <div class="card-title">Compass Longitude</div>
+            <div class="card-subtitle"><strong>Fabricante</strong>: Jeep <br>
+                <strong>Ano/Modelo</strong>: 2022 <br>
+                <strong>Combustível</strong>: Diesel <br>
+                <strong>Cor</strong>: Cinza Grafite <br>
+            </div>
+            <hr class="card-divider">
+            <div class="card-footer">
+                <div class="card-price"><span>R$</span> 185.000,00</div>
+                <button class="card-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z"></path><path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z"></path><path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z"></path><path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img"><div><img class="img" src="./assets/img/Onix.jpg" alt=""></div></div>
+            <div class="card-title">Onix Premier</div>
+            <div class="card-subtitle"><strong>Fabricante</strong>: Chevrolet <br>
+                <strong>Ano/Modelo</strong>: 2023 <br>
+                <strong>Combustível</strong>: Flex (Gasolina/Etanol) <br>
+                <strong>Cor</strong>: Vermelho Carmim
+            </div>
+            <hr class="card-divider">
+            <div class="card-footer">
+                <div class="card-price"><span>R$</span> 98.000,00</div>
+                <button class="card-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z"></path><path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z"></path><path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z"></path><path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img"><div><img class="img" src="./assets/img/Hilux.jpg" alt=""></div></div>
+            <div class="card-title">Hilux SRX</div>
+            <div class="card-subtitle"><strong>Fabricante</strong>: Toyota <br>
+                <strong>Ano/Modelo</strong>: 2021 <br>
+                <strong>Combustível</strong>: Diesel <br>
+                <strong>Cor</strong>: Prata Metálico
+            </div>
+            <hr class="card-divider">
+            <div class="card-footer">
+                <div class="card-price"><span>R$</span> 265.000,00</div>
+                <button class="card-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="m397.78 316h-205.13a15 15 0 0 1 -14.65-11.67l-34.54-150.48a15 15 0 0 1 14.62-18.36h274.27a15 15 0 0 1 14.65 18.36l-34.6 150.48a15 15 0 0 1 -14.62 11.67zm-193.19-30h181.25l27.67-120.48h-236.6z"></path><path d="m222 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z"></path><path d="m368.42 450a57.48 57.48 0 1 1 57.48-57.48 57.54 57.54 0 0 1 -57.48 57.48zm0-84.95a27.48 27.48 0 1 0 27.48 27.47 27.5 27.5 0 0 0 -27.48-27.47z"></path><path d="m158.08 165.49a15 15 0 0 1 -14.23-10.26l-25.71-77.23h-47.44a15 15 0 1 1 0-30h58.3a15 15 0 0 1 14.23 10.26l29.13 87.49a15 15 0 0 1 -14.23 19.74z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </div>  
+</main>
+
+<footer>
+    <hr>
+    <h2 style="color: #fff; justify-self: center; font-size: 40px;">Endereço</h2>
+
+</footer>
 </body>
 </html>
