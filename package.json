@@ -1,5 +1,24 @@
 {
+<<<<<<< HEAD
+  "name": "garagem-veiculos-atualizada",
+  "version": "1.0.0",
+  "description": "Este é uma atualização do **Programa** que simula o *Backend* de um sistema de uma **Garagem de Veículos** usando *Express*",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
+    "express": "^4.21.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+=======
+  "devDependencies": {
+>>>>>>> 02cc73ec1d521286b4b714b06b6aa4459bfe9e17
     "fs": "^0.0.1-security"
   }
 }
