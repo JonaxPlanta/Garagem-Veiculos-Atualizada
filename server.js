@@ -16,7 +16,7 @@ const rotas = require('./src/routes/Veiculo');
 // método GET na rota raís
 app.get("/", (req, res) => {
     // arquivo html obtido pelo fs
-    const arquivo = fs.readFileSync('./src/pages/index.html')
+    const arquivo = fs.readFileSync('./src/pages/index.html');
 
     // resposta do servidor com arquivo html
     res.status(200).end(arquivo);
@@ -28,7 +28,7 @@ const hostname = '127.0.0.1';
 
 // utilizar as rotas
 app.use('/veiculo', rotas);
-app.use(express.static('./src/pages/public'))
+app.use(express.static('./src/pages/public'));
 
 // rodar a aplicação
 app.listen(port, hostname, console.log(`O servidor está rodando! \nAcesse: http://${hostname}:${port}/`));
