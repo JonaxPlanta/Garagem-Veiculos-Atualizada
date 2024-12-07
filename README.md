@@ -1,17 +1,19 @@
 
 ### Graragem de Veículos
-Este é uma atualização do **Programa** que simula o *Backend* de um sistema de uma **Garagem de Veículos** usando *Express*
+Este é uma atualização do **Programa** que simula o *Frontend* e *Backend* de um sistema de uma **Garagem de Veículos** usando *Express*, *Body Parser* e *File System*
 
 ---
 
 ### Dependências
 Essas são as dependências para o funcionamento correto do programa:
 
-| Nome       | Link para Download                                  |
-|------------|-----------------------------------------------------|
-| NodeJS     | https://nodejs.org/en/download/package-manager      |
-| Express    | https://expressjs.com/pt-br/starter/installing.html |
-| Insomnia   | https://insomnia.rest/download                      |
+| Nome       | Link para Download                                     |
+|------------|--------------------------------------------------------|
+| NodeJS     | https://nodejs.org/en/download/package-manager         |
+| Express    | https://expressjs.com/pt-br/starter/installing.html    |
+| BodyParser | https://www.npmjs.com/package/body-parser              |
+| FileSystem | https://www.w3schools.com/nodejs/nodejs_filesystem.asp |
+| Insomnia   | https://insomnia.rest/download                         |
 
 Observação: o Insomnia é utilizado para acessar outros métodos além de GET
 
@@ -41,7 +43,7 @@ Observação: o Insomnia é utilizado para acessar outros métodos além de GET
       npm init -y
       ```
 
-#### Express
+#### Express, BodyParser e FileSystem
 
    1. Abra o **terminal**
    
@@ -65,11 +67,17 @@ Observação: o Insomnia é utilizado para acessar outros métodos além de GET
       ```
       npm i --save-dev express
       ```
+      ```
+      npm i body-parser
+      ```
+      ```
+      npm i fs
+      ```
 
 ---
 
 ### Inicializando
-   1. Instale *App.js* e *routes*
+   1. Instale *server.js* e *src*
 
    2. Crie uma pasta nomeada **garagem-de-veiculos**
       - Na localização onde se deseja criar a pasta, insira o seguinte comando
@@ -77,7 +85,7 @@ Observação: o Insomnia é utilizado para acessar outros métodos além de GET
       mkdir garagem-de-veiculos
       ```
 
-   3. Mova *App.js* e *routes* para a pasta **garagem-de-veiculos**
+   3. Mova *server.js* e *src* para a pasta **garagem-de-veiculos**
       - No **terminal**
       ```
       move <caminho-dos-arquivos> <caminho-da-pasta-alvo>
@@ -91,7 +99,7 @@ Observação: o Insomnia é utilizado para acessar outros métodos além de GET
    
    5. Insira o seguinte comando
       ```
-      node --watch "./app.js"
+      node --watch "./server.js"
       ```
 
    6. Entre na seguinte URL usando um navegador de Internet
@@ -99,15 +107,10 @@ Observação: o Insomnia é utilizado para acessar outros métodos além de GET
       https://127.0.0.1:8080/
       ```
 
-   7. Altere a URL para uma das seguintes opções
-      - Rota cliente
-         ```
-         https://127.0.0.1:8080/clientes
-         ```
-
+   7. Altere a URL para
       - Rota veículo
          ```
-         https://127.0.0.1:8080/veiculos
+         https://127.0.0.1:8080/veiculo/
          ```
 
    8. Para acessar *outros métodos HTTP* além de GET, utilize a aplicação **Insomnia**
