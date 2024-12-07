@@ -1,3 +1,8 @@
+/*
+  Código feito por : Rogerio Rodrigues Benevides Filho e
+  João Gabriel Batista Ferreira Flores 
+*/
+
 body {
   font-family: 'Arial';
   background-color: #191830;
@@ -132,3 +137,19 @@ body {
   .card-btn:active {
     transform: translateY(3px);
   }
+
+
+.ender{
+  color: #fff;
+  text-align: center;
+  align-self: center;
+  padding: 10px;
+}
+
+.foot {
+  color: #a0a0a0;
+  text-align: center;
+  align-self: center;
+  padding: 20px;
+  font-size: 20px;
+}
