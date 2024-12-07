@@ -32,7 +32,7 @@ const hostname = '127.0.0.1';
 
 // utilizar as rotas
 app.use('/veiculo', rotas);
-app.use(express.static('./src/pages/public'));
+app.use(express.static('./src/pages'));
 
 // rodar a aplicação
 app.listen(port, hostname, console.log(`O servidor está rodando! \nAcesse: http://${hostname}:${port}/`));
