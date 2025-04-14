@@ -1,6 +1,6 @@
 
-### Graragem de Veículos
-Este é uma atualização do **Programa** que simula o *Frontend* e *Backend* de um sistema de uma **Garagem de Veículos** usando *Express*, *Body Parser* e *File System*
+### Garagem de Veículos
+Esta é uma atualização do **Programa** que simula o *Frontend* e *Backend* de um sistema de uma **Garagem de Veículos** usando *Express*, *Body Parser* e *File System*
 
 ---
 
